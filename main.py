@@ -54,7 +54,7 @@ if selected == "Home":
     with im1:
         st.image("img5.jpg")
     with im2:
-        st.image("img8.jpg")
+        # st.image("img8.jpg")
 
     st.write(
         "Farmers are fundamental to the survival and progress of society. "
@@ -68,7 +68,7 @@ if selected == "Home":
     with im3:
         st.image("img7.jpg")
     with im4:
-        st.image("imgd3.jpg")
+        # st.image("imgd3.jpg")
 
     st.write(
         "Inflation has a significant impact on crops by increasing the cost of seeds, "
@@ -226,6 +226,7 @@ elif selected == "About":
             st.write("**Message:**", message)
         else:
             st.error("❌ Please fill in all required fields.")
+
 
 
 
