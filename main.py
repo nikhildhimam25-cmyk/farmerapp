@@ -120,10 +120,7 @@ if selected == "Home":
     with col2:
         st.write(
             "𝗙𝗔𝗥𝗠𝗘𝗥𝗦 of Madhya Pradesh play a very important role in Indian farming and agricultural development. The state is one of the largest producers of wheat, soybean, pulses, oilseeds, and gram, making a major contribution to India’s food security. Madhya Pradesh is often called the heart of India, and its farmers support agriculture across the nation by supplying food grains and raw materials for industries. With fertile soil, favorable climate, and the growing use of modern farming methods, 𝗙𝗔𝗥𝗠𝗘𝗥𝗦 of Madhya Pradesh help strengthen the rural economy, create employment, and ensure stable food availability for millions of people in India.")
-st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS"
-        )
-
-st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS")
+ st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS")
 
 # ==================================================
 # CHARTS PAGE  (1Charts.py – FULL CONTENT)
@@ -229,5 +226,6 @@ elif selected == "About":
             st.write("**Message:**", message)
         else:
             st.error("❌ Please fill in all required fields.")
+
 
 
