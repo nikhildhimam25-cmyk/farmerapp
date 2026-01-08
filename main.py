@@ -123,7 +123,7 @@ if selected == "Home":
 st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS"
         )
 
-    st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS")
+st.subheader("TO UNDERSTAND HOW NEW YEAR BEGINS WITH PRODUCTION AND COST OF CROPS CLICK ON CHARTS")
 
 # ==================================================
 # CHARTS PAGE  (1Charts.py – FULL CONTENT)
@@ -229,4 +229,5 @@ elif selected == "About":
             st.write("**Message:**", message)
         else:
             st.error("❌ Please fill in all required fields.")
+
 
