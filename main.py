@@ -61,7 +61,7 @@ if selected == "Home":
     )
 
     st.write("𝗜𝗡𝗙𝗟𝗔𝗧𝗜𝗢𝗡 𝗢𝗡 𝗖𝗥𝗢𝗣𝗦")
-     im3 = st.columns(1)
+    im3 = st.columns(1)
     with im3:
         st.image("img7.jpg")
     st.write(
