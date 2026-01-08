@@ -17,6 +17,7 @@ st.set_page_config(page_title="MP Crops Dashboard", page_icon="🌾", layout="wi
 # --------------------------------------------------
 with st.sidebar:
     selected = option_menu(
+        "",
         ["Home", "Charts", "About"],
         icons=["house", "bar-chart", "info-circle"],
         default_index=0
